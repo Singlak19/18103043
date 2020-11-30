@@ -9,13 +9,12 @@ function checker(str) {
 				return 0;
 			}
 			let found = false;
-			while(arr.length>0) {
+			if(arr.length>0) {
 				if(arr[arr.length-1] ===  '[') {
 					found = true;
 					arr.pop();
-					break;
 				}
-				arr.pop();
+// 				arr.pop();
 			}
 			if(!found) return 0;
 		}
@@ -24,13 +23,13 @@ function checker(str) {
 				return 0;
 			}
 			let found = false;
-			while(arr.length>0) {
+			if(arr.length>0) {
 				if(arr[arr.length-1] ===  '{') {
 					found = true;
 					arr.pop();
-					break;
+// 					break;
 				}
-				arr.pop();
+// 				arr.pop();
 			}
 			if(!found) return 0;
 		}
@@ -39,13 +38,13 @@ function checker(str) {
 				return 0;
 			}
 			let found = false;
-			while(arr.length>0) {
+			if(arr.length>0) {
 				if(arr[arr.length-1] ===  '(') {
 					found = true;
 					arr.pop();
-					break;
+// 					break;
 				}
-				arr.pop();
+// 				arr.pop();
 			}
 			if(!found) return 0;
 		}
