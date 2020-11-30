@@ -13,7 +13,7 @@ public class Question_1 extends Thread {
     }
     public static void main(String[] args)
     {
-        Main obj = new Question_1();
+        Question_1 obj = new Question_1();
         obj.start();
     }
 }
